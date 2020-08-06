@@ -1,0 +1,32 @@
+
+.azul{
+  display: block;
+  width: 120px;
+  height: 120px;
+  background-color: blue;
+}
+
+#segundo{
+  display: block;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 150px;
+  height: 150px;
+  background-color: brown;  
+}
+
+
+#painel, #info {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+  }
+#painel{
+    margin-top: 30px;
+}
+  
+#info {
+    padding: 50px;
+    display: none;
+}

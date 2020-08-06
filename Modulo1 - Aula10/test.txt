@@ -1,0 +1,6 @@
+1)  Criar uma pagina com 2 botões, quando clicar no primeiro botão
+    adiciona um texto e uma imagem na pagina, quando clicar no segundo
+    o texto e a imagem deve ser removido. Utilizando eventos.
+
+2)  Criar um efeito de slide ou fade usando o toggle e criar uma animação alterando
+    uma forma geometrica no minimo 2 vezes.

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body class="container">
+    <header>
+        <h1> Bem Vindo ao Formulario</h1>
+    </header>
+    <main style="margin-top: 40px;">
+        <section class="form-group">
+            <form id="formulario" action="conclusao.html" method="GET">
+                <label for="texto">Nome: </label>
+                <input class="form-control col-md-4" id="texto" name="texto" type="text" required>
+                <br>
+                <label for="email">Email: </label>
+                <input class="form-control col-md-4" id="email" name="email" type="email" required>
+                <br>
+                <label for="senha">Senha: </label>
+                <input class="form-control col-md-4" id="senha" name="senha" type="password" required>
+                <br>
+                <select name="pais" id="pais">
+                    <option value="brasil">Brasil</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="mexico">Mexico</option>
+                </select>
+                <input id="radio1" type="radio" value="nadar">
+                <label for="radio"> Nadar </label>
+                <br>
+                <input class="btn btn-primary" id="btnConfirmar" type="submit" value="Confirmar">
+                <input class="btn btn-secondary" id="btnResetar" type="reset" value="Resetar">
+            </form>
+
+            <form id="formulario2" action="conclusao.html" method="GET">
+                <label for="texto">Nome: </label>
+                <input class="form-control col-md-4" id="texto2" name="texto" type="text" required>
+                <br>
+                <label for="senha">Senha: </label>
+                <input class="form-control col-md-4" id="senha2" name="senha" type="password" required>
+                <br>
+                <input class="btn btn-primary" id="btnConfirmar2" type="submit" value="Confirmar">
+                <input class="btn btn-secondary" id="btnResetar2" type="reset" value="Resetar">
+            </form>
+        </section>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+</html>

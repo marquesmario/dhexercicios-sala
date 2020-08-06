@@ -1,0 +1,85 @@
+.width{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.view-width{
+    display: flex;
+    width: 20vw;
+    height: 20vh;
+    background-color: brown;
+}
+
+.view-pct{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    background-color: chartreuse;
+}
+
+p{
+    color:blue;
+    font-size: 50px;
+}
+
+p::before{
+
+    content: "osk";
+}
+
+
+table, th, td{
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+
+
+
+@media (max-width: 500px){
+    .width{
+        display: flex;
+        width: 150px;
+        height: 150px;
+        background-color: green;
+    }
+    
+    .view-width{
+        display: flex;
+        width: 10vw;
+        height: 10vh;
+        background-color: purple;
+    }
+    
+    .view-pct{
+        display: flex;
+        width: 20%;
+        height: 20%;
+        background-color: yellow;
+    }
+}
+
+@media (min-width: 800px){
+    
+    .width{
+        display: flex;
+        width: 150px;
+        height: 150px;
+        background-color: red;
+    }
+    
+    .view-width{
+        display: flex;
+        width: 10vw;
+        height: 10vh;
+        background-color: red;
+    }
+    
+    .view-pct{
+        display: flex;
+        width: 20%;
+        height: 20%;
+        background-color: red;
+    }
+}
